@@ -44,7 +44,7 @@ export const Exchanger = () => {
     }
 
     function setExchangeRate(e) {
-        setRate(p => p = 0);
+        setRate(p => p = 404);
         if (e.target.name === 'first') {
             if (e.target.value !== secondSelect) {
                 setFirstSelect(e.target.value);
